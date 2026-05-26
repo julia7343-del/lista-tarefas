@@ -9,14 +9,32 @@
 #input {
     height: 36px;
     width: 600px;
-    padding: 0px;
+    padding: 10px;
 }
 
 #button {
-    font-size: 20px;
-    background-color: #610061;
+    font-size: 25px;
+    background-color: #da7fb7;
     border: none;
-    height: 25px;
-    width: 25px;
-    color: white;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+.inserir-tarefa {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.delete {
+    border: none;
+    background-color: #6b0136;
+    color: #fff;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
